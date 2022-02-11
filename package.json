@@ -1,0 +1,39 @@
+{
+  "name": "blog-post-composed-index-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "ts-node seed.ts",
+    "bench": "ts-node bench.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtassin/blog-post-composed-index-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtassin/blog-post-composed-index-1/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/preset-env": "7.15.8",
+    "@babel/preset-typescript": "7.15.0",
+    "@semantic-release/git": "10.0.0",
+    "@types/jest": "27.0.2",
+    "@types/lodash": "^4.14.178",
+    "babel-jest": "27.2.5",
+    "jest": "27.2.5",
+    "semantic-release": "18.0.0",
+    "semantic-release-cli": "5.4.4",
+    "semantic-release-gitmoji": "1.4.2",
+    "ts-node": "^10.4.0",
+    "typescript": "4.4.4"
+  },
+  "homepage": "https://github.com/jtassin/blog-post-composed-index-1#readme",
+  "dependencies": {
+    "mongodb": "^4.2.2"
+  }
+}
